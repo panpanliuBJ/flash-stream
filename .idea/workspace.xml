@@ -1,337 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8269273c-4132-4e21-9974-48cecef13832" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flash-stream.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/StreamApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/configuration/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/configuration/FlashConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/configuration/KafkaConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/configuration/KafkaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/configuration/MybatisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/consts/Beans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/consts/KafkaConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/consts/MetricsName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/dao/UserShare15MinMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/dao/UserShare5MinMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/dao/UserShareHourMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/BaseUserShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShare15Min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShare15MinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShare5Min.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShare5MinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShareHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/domain/UserShareHourExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/consumer/AbstractConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/consumer/UserShareConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/consumer/UserShareHourConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/consumer/UserShareMin15Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/consumer/UserShareMin5Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/extractor/MiningTimestampExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/model/CoinInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/model/GranularityType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/model/MiningData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/model/MiningTopologyMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/model/UserShareData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/serializer/JsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/serializer/JsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/AbstractTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/FlattenTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/StreamUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/StreamsStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/TopologyObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/TopologyObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/UserShareStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/kafka/topology/UserSubTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/service/UserShareHourService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/service/UserShareMin15Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/service/UserShareMin5Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finley/flash/stream/service/UserShareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/base_logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ddl/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dev/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dev/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/mysql-connector-java-5.1.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserShare15MinMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserShare5MinMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/UserShareHourMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prod/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prod/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/qa/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/qa/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT-bin.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/exampleSimConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/exampleWorkflow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/iothubExampleSimConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/jackieChanSimConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/jackieChanWorkflow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/jsonWebLogConfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/jsonWebLogWorkflow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/kitchenSinkOutput.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/kitchesSinkExample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/mining-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/conf/mining-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/json-data-generator-1.3.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/RoaringBitmap-0.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/activation-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-api-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-connector-file-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-connector-okhttp-0.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-impl-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-spi-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aether-util-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/airline-0.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/antlr4-runtime-4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/asm-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aws-java-sdk-1.8.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/aws-java-sdk-core-1.8.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/azure-storage-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/base64-2.3.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/bcprov-jdk15-1.46.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/bytebuffer-collections-0.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/classmate-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-cli-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-dbcp2-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-lang3-3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-math3-3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-pool-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/commons-pool2-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/compress-lzf-1.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/config-magic-0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/curator-client-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/curator-framework-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/curator-recipes-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/curator-x-discovery-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/derby-10.11.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/derbyclient-10.11.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/derbynet-10.11.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-api-0.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-aws-common-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-common-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-indexing-hadoop-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-indexing-service-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-processing-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/druid-server-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/emitter-0.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/extendedset-1.3.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/finagle-core_2.10-6.24.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/finagle-http_2.10-6.24.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/geoip2-0.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/google-http-client-1.15.0-rc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/google-http-client-jackson2-1.15.0-rc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/gson-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/guava-18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/guice-4.0-beta.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/guice-multibindings-4.0-beta.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/guice-servlet-4.0-beta.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/h2-1.3.158.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/hamcrest-core-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/hibernate-validator-5.1.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/http-client-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/httpclient-4.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/httpcore-4.4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/icu4j-4.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/iot-deps-serializer-0.6.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/iot-device-client-1.3.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/irc-api-1.0-0011.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-annotations-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-core-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-databind-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-dataformat-smile-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-datatype-guava-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-datatype-joda-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-jaxrs-base-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-jaxrs-json-provider-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-jaxrs-smile-provider-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-module-jaxb-annotations-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jackson-module-scala_2.10-2.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/java-util-0.26.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/java-xmlbuilder-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javassist-3.16.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.el-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.el-api-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.json-1.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.json-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jboss-logging-3.1.3.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jdbi-2.27.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jersey-core-1.17.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jersey-guice-1.17.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jersey-server-1.17.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jersey-servlet-1.17.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jets3t-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-client-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-continuation-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-http-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-io-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-proxy-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-security-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-server-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-servlet-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-servlets-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jetty-util-9.2.5.v20141112.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jline-0.9.94.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/joda-convert-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/joda-time-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/jsr305-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/junit-4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/kafka-clients-0.11.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/log4j-1.2-api-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/log4j-api-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/log4j-core-2.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/loglady_2.10-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/lz4-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/mail-1.4.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/mapdb-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-aether-provider-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-model-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-model-builder-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-repository-metadata-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-settings-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maven-settings-builder-3.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/maxminddb-0.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/mx4j-3.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/mysql-connector-java-5.1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/nats-client-0.6.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/netty-3.10.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/netty-all-4.0.27.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/okhttp-1.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/opencsv-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/org.abego.treelayout.core-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/org.eclipse.paho.client.mqttv3-1.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/paranamer-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/plexus-interpolation-1.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/plexus-utils-3.0.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/protobuf-java-2.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/proton-j-0.18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/reflections-0.9.9-RC1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/rhino-1.7R4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/scala-library-2.10.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/scala-reflect-2.10.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/scala-util_2.10-1.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/server-metrics-0.0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/snakeyaml-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/snappy-java-1.1.2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/spymemcached-2.11.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/tesla-aether-0.0.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/time_2.10-0.6-mmx3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/tranquility_2.10-0.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-app_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-codec_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-collection_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-core_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-hashing_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-jvm_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-logging_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/util-stats_2.10-6.23.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/wagon-provider-api-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/websocket-transport-layer-0.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/xml-apis-1.0.b2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/xpp3-1.1.4c.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/lib/zookeeper-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/logs/2018-12/data-12-14-2018-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/logs/data.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/logs/json-data.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/logs/logdata-12-14-2018-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/logs/logdata-generator.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-workflows/json-data-generator-1.3.1-SNAPSHOT/startup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/base_logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/StreamApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/configuration/DataSourceConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/configuration/FlashConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/configuration/KafkaConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/configuration/KafkaProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/configuration/MybatisConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/consts/Beans.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/consts/KafkaConsts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/consts/MetricsName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/dao/UserShare15MinMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/dao/UserShare5MinMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/dao/UserShareHourMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/BaseUserShare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15Min$Column.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15Min.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15MinExample$Criteria$ICriteriaAdd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15MinExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15MinExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15MinExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare15MinExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5Min$Column.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5Min.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5MinExample$Criteria$ICriteriaAdd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5MinExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5MinExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5MinExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShare5MinExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHour$Column.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHourExample$Criteria$ICriteriaAdd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHourExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHourExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHourExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/domain/UserShareHourExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/consumer/AbstractConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/consumer/UserShareConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/consumer/UserShareHourConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/consumer/UserShareMin15Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/consumer/UserShareMin5Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/extractor/MiningTimestampExtractor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/CoinInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/GranularityType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/MiningData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/MiningTopologyMeta$MiningTopologyMetaBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/MiningTopologyMeta.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/model/UserShareData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/serializer/JsonDeserializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/serializer/JsonSerializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/AbstractTopology.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/FlattenTopology.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/StreamUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/StreamsStarter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/TopologyObservable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/TopologyObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/UserShareStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/kafka/topology/UserSubTopology.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/service/UserShareHourService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/service/UserShareMin15Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/finley/flash/stream/service/UserShareMin5Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-generator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/UserShareHourMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/flash-stream.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="8269273c-4132-4e21-9974-48cecef13832" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -347,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="55">
-                <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <first_editor relative-caret-position="121">
+                <caret line="25" selection-start-line="25" selection-end-line="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -596,12 +266,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544796660075</updated>
-      <workItem from="1544796663030" duration="12725000" />
+      <workItem from="1544796663030" duration="13670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12725000" />
+    <option name="totallyTimeSpent" value="13670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1111,8 +781,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="55">
-            <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <first_editor relative-caret-position="121">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
         </state>
