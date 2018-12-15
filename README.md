@@ -2,6 +2,11 @@
 
 - aggregate user share by time window
 
+# dev environment
+- kafka broker [version:2.0.0](https://archive.apache.org/dist/kafka/2.0.0/kafka_2.11-2.0.0.tgz)
+- [zookeeper-3.4.10](http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.10/)
+- MySQL 5.7
+
 
 # Quickstart
 ```shell
@@ -140,4 +145,6 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092  --topic btc-use
 
 # contact
 
-Email: finleyliupan@gmail.com
+Email:   
+finleyliupan@gmail.com  
+978814049@qq.com
