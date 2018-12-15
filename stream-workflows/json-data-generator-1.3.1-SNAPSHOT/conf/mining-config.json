@@ -1,0 +1,21 @@
+{
+  "workflows": [
+    {
+      "workflowName": "mining",
+      "workflowFilename": "mining-data.json"
+    }
+  ],
+  "producers": [
+    {
+      "type": "kafka",
+      "broker.server": "127.0.0.1",
+      "broker.port": 9092,
+      "topic": "btc-share",
+      "flatten" :false,
+      "sync": false
+    },
+    {
+      "type": "logger"
+    }
+  ]
+}

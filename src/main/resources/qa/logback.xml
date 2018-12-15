@@ -1,0 +1,11 @@
+<configuration scan="true" scanPeriod="10 seconds">
+    <property name="log.home" value="logs"/>
+    <include resource="base_logback.xml"/>
+
+
+    <root level="info">
+        <appender-ref ref="APP"/>
+        <appender-ref ref="ERROR"/>
+    </root>
+
+</configuration>

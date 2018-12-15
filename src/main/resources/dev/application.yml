@@ -1,0 +1,42 @@
+coin:
+  type: btc
+flash:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driverclassname: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?allowPublicKeyRetrieval=true&useSSL=false&characterEncoding=utf8&useCompress=true
+    username: root
+    password: root
+    maximum-pool-size: 10
+
+kafka:
+  topic: ${coin.type}-share
+  stream-config:
+    bootstrap.servers: 127.0.0.1:9092
+    group.id: stream
+    client.id: stream-client
+    application.id: stream-app
+    replication.factor: 1
+    windowstore.changelog.additional.retention.ms: 86400000 #1day
+    commit.interval.ms: 1000
+    processing.guarantee: exactly_once
+    state.cleanup.delay.ms: 6000000
+
+  consumers:
+    user:
+      min5:
+        topic: ${coin.type}-user-share-min5
+      min15:
+        topic: ${coin.type}-user-share-min15
+      hour:
+        topic: ${coin.type}-user-share-hour
+
+
+management:
+  endpoints:
+    beans: # disable beans endpoint
+      enabled: false
+    web:
+      exposure:
+        include: health,info,env,metrics,prometheus
+      base-path: /
